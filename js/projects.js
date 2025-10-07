@@ -46,7 +46,7 @@ const projects = [
       },
       {
         label: "GitHub",
-        url: "https://github.com/utilizador/rmaaa",
+        url: "https://github.com/PedroGaP/pageable_vaden",
         icon: githubIcon,
       },
     ]
