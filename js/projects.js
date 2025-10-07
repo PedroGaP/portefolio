@@ -15,11 +15,11 @@ const projects = [
   new Project(
     "RMAAA (Rede de Monitorização e Avisos Agrícolas dos Açores)",
     "Aplicação desenvolvida pela MAIDOT para dar apoio aos trabalhos de campo no contexto do Concurso Público com Publicidade Internacional para o Desenvolvimento de uma Rede de Monitorização e Avisos Agrícolas ao nível de ilha (CP/2022/4/DRAG). Trata-se de uma aplicação que visa facilitar e acelerar os trabalhos no terreno para as observações visuais de doenças nas diversas culturas e contagens de armadilhas com as capturas de pragas, com recurso a leitura de Código QR para uma associação imediata à armadilha em questão. Possibilita também a inserção de novos POB (Postos de Observação Biológica) assim como das respetivas Armadilhas contidas nestes, com recurso também à geo localização em tempo real.",
-    "/assets/rmaaa.png",
+    "/portefolio/assets/rmaaa.png",
     [
       {
         label: "Ver Detalhes",
-        url: "/pages/projects/rmaaa.html",
+        url: "/portefolio/pages/projects/rmaaa.html",
         icon: detailsIcon,
       },
       {
@@ -37,11 +37,11 @@ const projects = [
   new Project(
     "Pageable Vaden",
     "PageableVaden é uma package para Dart desenvolvida para uso na framework Vaden – uma framework que facilita a criação de APIs REST do lado do servidor com Dart.Inspirada na abordagem do Pageable do Spring Boot, esta package fornece uma implementação simples, extensível e integrada de paginação e ordenação de dados, com suporte a repositórios automáticos e integração fluida com controladores e serviços da Vaden.",
-    "/assets/pageable_vaden.png",
+    "/portefolio/assets/pageable_vaden.png",
     [
       {
         label: "Ver Detalhes",
-        url: "/pages/projects/pageable_vaden.html",
+        url: "/portefolio/pages/projects/pageable_vaden.html",
         icon: detailsIcon,
       },
       {
@@ -54,12 +54,12 @@ const projects = [
   new Project(
     "InnovAcad API",
     "Sistema de gestão escolar. A API foi construída utilizando Dart, VadenAPI e PostgreSQL, oferecendo funcionalidades como gestão de alunos, professores, cursos e turmas. A aplicação inclui autenticação JWT para segurança e um painel administrativo para facilitar a gestão diária da instituição.",
-    "/assets/innovacad.png",
+    "/portefolio/assets/innovacad.png",
 
     [
       {
         label: "Ver Detalhes",
-        url: "/pages/projects/innovacad.html",
+        url: "/portefolio/pages/projects/innovacad.html",
         icon: detailsIcon,
       },
     ]
@@ -67,12 +67,12 @@ const projects = [
   new Project(
     "AllDayCare",
     "Plataforma de apoio domiciliário para idosos e pessoas com necessidades especiais",
-    "/assets/alldaycare.jpg",
+    "/portefolio/assets/alldaycare.jpg",
 
     [
       {
         label: "Ver Detalhes",
-        url: "/pages/projects/alldaycare.html",
+        url: "/portefolio/pages/projects/alldaycare.html",
         icon: detailsIcon,
       },
     ]
@@ -80,12 +80,12 @@ const projects = [
   new Project(
     "ExpenseTracker",
     "Plataforma de gestão de despesas pessoais",
-    "/assets/expensetracker.png",
+    "/portefolio/assets/expensetracker.png",
 
     [
       {
         label: "Ver Detalhes",
-        url: "/pages/projects/expensetracker.html",
+        url: "/portefolio/pages/projects/expensetracker.html",
         icon: detailsIcon,
       },
     ]
