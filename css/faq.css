@@ -1,0 +1,33 @@
+.faq-question {
+  justify-content: space-between;
+  text-align: left;
+  color: #000 !important;
+  background-color: #fff;
+  border-color: #00fff7;
+}
+
+.faq-question:hover {
+  color: #000 !important;
+  background-color: #f0f0f0;
+}
+
+.faq-answer {
+  display: none;
+  padding: 1rem;
+  border-left: 3px solid #00fff7;
+  margin-top: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.faq-item {
+  position: relative;
+}
+
+.faq-question .icon {
+  transition: transform 0.3s;
+}
+.faq-question.is-active .icon {
+  transform: rotate(45deg);
+}

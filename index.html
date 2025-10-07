@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Pedro Guerra</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar is-transparent is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item retro-font" href="/index.html"
+          ><strong>Pedro Guerra</strong></a
+        >
+        <a
+          role="button"
+          class="navbar-burger"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/index.html#sobre">Sobre</a>
+          <a class="navbar-item" href="/index.html#projetos">Projetos</a>
+          <a class="navbar-item" href="/index.html#contacto">Contacto</a>
+          <a class="navbar-item" href="/pages/faq.html">FAQ</a>
+          <a class="navbar-item" href="/pages/certificados.html"
+            >Certificados</a
+          >
+          <a class="navbar-item is-active" href="/pages/timeline.html"
+            >Percurso</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero is-fullheight is-dark center">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-half has-text-centered-touch">
+              <h1 class="title is-1 retro-font neon-cyan">
+                Olá, eu sou Pedro Guerra
+              </h1>
+              <p class="subtitle is-4">Programador Mobile & Backend</p>
+              <a
+                href="/assets/cv.pdf"
+                target="_blank"
+                class="button is-primary is-rounded is-large mt-4"
+                >Baixar CV</a
+              >
+            </div>
+            <div class="column is-half has-text-centered">
+              <div class="blob-photo">
+                <figure class="image is-300x300">
+                  <img src="assets/minha-foto.jpg" alt="Minha foto" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section has-background-light">
+      <div class="container">
+        <h2 class="title has-text-centered retro-font">Sobre Mim</h2>
+        <div class="content has-text-centered">
+          <p>
+            Sou um programador apaixonado por criar aplicações modernas e
+            responsivas. Tenho experiência sólida em
+            <strong>HTML, CSS, JavaScript, Flutter</strong>, além de
+            desenvolvimento backend em Node.js e Dart.
+          </p>
+          <p>
+            Gosto de trabalhar em equipa e resolver problemas complexos,
+            mantendo sempre as melhores práticas de segurança e performance.
+            Atualmente, foco-me em projetos que combinam design atraente com
+            arquitetura escalável.
+          </p>
+
+          <h3 class="title is-4 mt-5">Competências</h3>
+          <div class="skills-container columns is-multiline">
+            <div class="column is-half">
+              <div class="skill">
+                <div class="skill-header">
+                  <i class="fab fa-google-play fa-lg"></i>
+                  <span>Flutter</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-bar" data-value="90"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-header">
+                  <i class="fa-solid fa-database"></i>
+                  <span>MySQL</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-bar is-info" data-value="85"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-header">
+                  <i class="fas fa-server fa-lg"></i>
+                  <span>APIs REST</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-bar is-primary" data-value="80"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column is-half">
+              <div class="skill">
+                <div class="skill-header">
+                  <i class="fa-brands fa-wordpress"></i>
+                  <span>Wordpress</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-bar is-warning" data-value="75"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-header">
+                  <i class="fab fa-github fa-lg"></i>
+                  <span>Git/GitHub</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-wrapper">
+                  <div class="progress-bar is-danger" data-value="85"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projects-section">
+      <div id="projects-container" class="three-project-slide"></div>
+      <div class="project-slide final-slide">
+        <div class="project-content final-content">
+          <h3 class="project-title title is-2 has-text-white retro-font">
+            Gostas do que vês?
+          </h3>
+          <p class="project-description has-text-white">
+            Visita a página de projetos para ver mais do meu trabalho!
+          </p>
+          <hr />
+          <a href="./pages/projetos.html" class="button is-link see-more-btn"
+            >Ver mais projetos</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer
+      id="contacto"
+      class="footer has-background-black has-text-centered has-text-white"
+    >
+      <p class="retro-font">Contacta-me</p>
+
+      <div class="mt-3">
+        <a
+          href="mailto:pedro.guerra.t0120720@edu.atec.pt"
+          class="button is-link is-light"
+        >
+          pedro.guerra.t0120720@edu.atec.pt
+        </a>
+      </div>
+
+      <div class="mt-4">
+        <a
+          href="https://github.com/PedroGaP"
+          target="_blank"
+          class="icon is-large m-2"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/pedroga07/"
+          target="_blank"
+          class="icon is-large m-2"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="icon is-large m-2"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="container mt-5">
+        <div class="box" style="overflow: hidden; border-radius: 12px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49816.41095665646!2d-9.06876693901119!3d38.70573821581219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1939eb3ac02dd7%3A0x42cc94a7d11be406!2sMontijo!5e0!3m2!1spt-PT!2spt!4v1759504023465!5m2!1spt-PT!2spt"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <p class="mt-4">© 2025 Pedro Guerra</p>
+    </footer>
+
+    <button class="scroll-button">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="./js/burger_activation.js"></script>
+
+    <script src="./js/projects_parallax.js"></script>
+    <script src="./js/scroll_button.js"></script>
+    <script src="./js/skills.js"></script>
+    <script src="./js/projects.js"></script>
+  </body>
+</html>
